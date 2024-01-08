@@ -1,0 +1,227 @@
+body {
+    margin: 0px;
+}
+.left {
+    float: left;
+}
+.clear {
+    clear: both;
+}
+li {
+    float: left;
+    margin-top: 18px;
+}
+.branding {
+    width: 500px;
+    float: left;
+}
+.branding h1 {
+    color: #4073de;
+    font-size: 35px;
+}
+.branding p {
+    color: #4073de;
+    font-size: 25px;    
+}
+.nav {
+    width: 700px;
+    float: right;
+    margin: 0 auto;
+}
+.contener {
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav a {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 34px 13px;
+    color: black;
+    font-weight: bold;
+}
+.nav a:hover {
+    color: white;
+    background: rgb(164,93,249);
+    background: linear-gradient(90deg, rgba(164,93,249,1) 0%, rgba(29,94,212,1) 100%);
+}
+.nav ul {
+    list-style: none;
+}
+#slider img{
+    width: 100%;   
+}
+.box-content {
+    padding: 0px 15px;
+}
+.box {
+    width: 25%;
+}
+.box-content div {
+    padding: 15px;
+}
+.box-content div .title {
+    font-size: 45px;
+    color: white;
+}
+.box-content div p {
+    color: white;
+    font-size: 20px;
+}
+.bg-01 {
+    background: rgb(254,172,2);
+    background: linear-gradient(90deg, rgba(254,172,2,1) 0%, rgba(255,136,20,1) 100%);
+}
+.bg-02 {
+    background: rgb(186,91,255);
+    background: linear-gradient(90deg, rgba(186,91,255,1) 0%, rgba(23,94,210,1) 100%);
+}
+.bg-03 {
+    background: rgb(255,47,81);
+    background: linear-gradient(90deg, rgba(255,47,81,1) 0%, rgba(254,29,151,1) 100%);
+}
+.bg-04 {
+    background: rgb(254,20,231);
+    background: linear-gradient(90deg, rgba(254,20,231,1) 0%, rgba(184,30,224,1) 100%);
+}
+div#feature-new {
+    margin-top: -160px;
+    z-index: 999;
+    position: sticky;
+}
+.news .box {
+    width: 50%;
+    padding-bottom: 30px;
+}
+.news .box-content img {
+    width: 100%;
+}
+#news {margin-top: 30px;}
+.box-content .box-content-text {
+    background-color: #eadcdc;
+    padding: 50px;
+    min-height: 334px;
+}
+.box-content .box-content-text p {
+    color: rgba(0, 0, 0, 0.832);
+}
+.box-content .box-content-text h1 {
+    color: black;
+    font-size: 45px;
+}
+
+.news .box-content button {
+    background: rgb(254,172,2);
+    background: linear-gradient(90deg, rgba(254,172,2,1) 0%, rgb(170, 37, 19) 100%);
+    padding: 15px 20px;
+    border: 0px;
+
+}
+.news .box-content button a {
+    color: white;
+    text-decoration: none;
+}
+.new2 {
+    background-image: url(images/banner2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.new2 .box-content-text {
+    padding: 50px;
+    background: rgb(232, 49, 79);
+    background: linear-gradient(180deg, rgb(232, 49, 79) 0%, rgba(226, 10, 132, 0.616) 100%);
+    height: 600px;
+}
+.new2 .box {
+    width: 50%;
+}
+.new2 .box-content-text  p {
+    color: white;
+    font-size: 18px;
+}
+.new2 .box-content-text h1 {
+    color: white;
+}
+.new2 .box-content-text button {
+    color: white;
+    padding: 15px 40px;
+    border: 0px;
+    margin-top: 30px;
+}
+.new2 .box-content-text a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+.new3 {
+    margin-top: 30px;
+}
+.new3 .box-content-text .title {
+    color: white;
+    padding: 0 35px;
+}
+.new3 .box-content-text {
+    background: rgb(254,172,2);
+    background: linear-gradient(180deg, rgb(244, 184, 63) 0%, rgb(223, 119, 15) 100%);
+}
+.new3 .box-content-text a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.new3 .box-content-text i {
+    padding-right: 15px;
+    font-size: 16px;
+    color: white;
+}
+.new3 ul li {
+    list-style: none;
+}
+.new3 a:hover {
+    color: #bcd0f9;
+}
+.new4 {
+    margin-top: 60px;
+}
+.new4 .new4-bg {
+    background: #3835353b;
+    padding: 40px;
+}
+.new4 .new4-bg h1{
+    height: 40%;
+    color: orange;
+    font-size: 25px;
+}
+.new4 .new4-bg img {
+    margin-top: -120px;
+    width: 100%;
+    height: 150px;
+    clip-path: circle(75px at 50% 50%);
+    
+}
+.new4 .new4-bg p {
+    color: rgba(0, 0, 0, 0.693);
+    height: 65%;
+}
+.new4 .box-content div{
+height: 240px;
+}
+.new5 {
+    margin-top: 30px;
+}
+.new5 .box-content-text {
+    background-color: #4073de;
+}
+.footer {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.716);
+}
+.new5 .box-content-text .title {
+    font-size: 45px;
+    color: white;
+}
+.new5 .box-content-text i {
+    margin-right: 10px;
+}
+.new5 .box-content-text p {
+    color: white;
+}
